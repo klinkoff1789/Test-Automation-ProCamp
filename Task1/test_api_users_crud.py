@@ -18,7 +18,7 @@ def test_read():
 
 
 def test_update():
-    assert response_put.status_code != 304
+    assert response_put.status_code == 200
 
 
 def test_modify():
